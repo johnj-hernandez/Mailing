@@ -3,7 +3,7 @@
   width: 750px;
   height: 750px;
   margin: auto;
-  background: #d1c4e9;
+  margin-top: 15px;
 }
 /* reseteamos los margenes y paddings */
 * {
@@ -15,7 +15,7 @@
 
 /* las imagenes ocuparan el 100% de sus contenedores o espacio disponible la altura sera modificada automaticamente al verse afectado el ancho */
 img {
-  width: 80%;
+  width: 90%;
 }
 
 .card {
@@ -27,7 +27,7 @@ img {
 
 /* cuando se posiciona el mouse sobre la imagen se realiza un pequeño efecto con mas sombra */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 255, 0.5);
 }
 
 /* la letra general del codigo sera oscura, al tener un fondo claro */
@@ -40,6 +40,11 @@ body {
 #mailing h2,
 #mailing h3 {
   text-align: center;
+}
+#discount {
+  margin-top: 10px;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 /* aplicamos flex para alinear los items y tener la imagen y descripcion en la misma fila */
@@ -87,14 +92,14 @@ body {
 /* y aumentamos el tamaño y le damos el color que tendran los iconos que usaremos desde Font-awesome */
 #caracteristicas i {
   font-size: 3.5rem;
-  color: #ff3d00;
+  color: indigo;
 }
 
 /* -------------EVENTO------------------ */
 /* usamos la seccion para darle un background */
 .evento {
   position: relative;
-  height: 200px;
+  height: 150px;
   width: 100%;
   background: url(img/launchEvent.jpg) no-repeat bottom center/cover;
 }
@@ -121,7 +126,7 @@ body {
 #contenido-evento {
   width: 100%;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -131,7 +136,7 @@ a {
   text-decoration: none;
 }
 .btn {
-  color: #ff3d00;
+  color: #333333;
 
   display: inline-block;
   background: white;
@@ -144,5 +149,6 @@ a {
 }
 
 .btn:hover {
-  background: #d1c4e9;
+  background: #333333;
+  color: white;
 }
